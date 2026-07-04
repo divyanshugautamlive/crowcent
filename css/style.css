@@ -1605,3 +1605,41 @@ button, input, textarea, select {
   right: 24px;
   line-height: 1;
 }
+
+/* Checkbox Custom Styles */
+.form-checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.form-checkbox-group input[type="checkbox"] {
+  width: 18px !important;
+  height: 18px !important;
+  padding: 0 !important;
+  margin-top: 3px;
+  cursor: pointer;
+  accent-color: var(--accent-purple);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-glass);
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.form-checkbox-group label {
+  display: inline !important;
+  margin-bottom: 0 !important;
+  font-size: 0.85rem !important;
+  color: var(--text-muted) !important;
+  cursor: pointer;
+  line-height: 1.4 !important;
+}
+.form-checkbox-group label a {
+  color: var(--accent-teal);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.form-checkbox-group label a:hover {
+  color: var(--text-white);
+  text-decoration: underline;
+}

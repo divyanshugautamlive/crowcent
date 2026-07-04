@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Crowcent | Data Protection & Your Rights</title>
+    <meta name="description"
+        content="Crowcent's Privacy Policy. Learn how we collect, use, protect, and manage your personal data in compliance with Indian law and international standards.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
+    <style>
+        .policy-content {
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        .policy-section {
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .policy-section:last-child {
+            border-bottom: none;
+        }
+
+        .policy-section h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--text-white);
+            font-family: var(--font-heading);
+        }
+
+        .policy-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            color: var(--accent-teal);
+            font-family: var(--font-heading);
+        }
+
+        .policy-section p {
+            color: var(--text-secondary);
+            margin-bottom: 14px;
+        }
+
+        .policy-section ul {
+            list-style-position: inside;
+            margin-left: 16px;
+            margin-bottom: 16px;
+        }
+
+        .policy-section li {
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+        }
+
+        .highlight-box {
+            background: rgba(0, 212, 170, 0.08);
+            border-left: 4px solid var(--accent-teal);
+            padding: 20px;
+            margin: 24px 0;
+            border-radius: 4px;
+        }
+
+        .highlight-box p {
+            color: var(--text-secondary);
+            margin-bottom: 0;
+        }
+
+        .policy-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .policy-table th,
+        .policy-table td {
+            padding: 14px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-secondary);
+        }
+
+        .policy-table th {
+            background: rgba(0, 212, 170, 0.1);
+            font-weight: 600;
+            color: var(--accent-teal);
+        }
+
+        .toc-box {
+            background: var(--bg-secondary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 28px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        .toc-box h3 {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        .toc-box ol {
+            margin: 0;
+            padding-left: 24px;
+        }
+
+        .toc-box li {
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+        }
+
+        .toc-box a {
+            color: var(--accent-teal);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .toc-box a:hover {
+            color: var(--text-white);
+        }
+
+        .last-updated {
+            background: rgba(59, 130, 246, 0.08);
+            border-left: 4px solid var(--accent-blue);
+            padding: 16px;
+            border-radius: 4px;
+            margin-bottom: 32px;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+
+<body class="page-transition">
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon"><span>C</span></div>
+                Crowcent
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="work.html">Work</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- ============ PAGE HERO ============ -->
+    <section class="hero page-hero" style="background: var(--bg-secondary);">
+        <canvas id="grid-canvas" class="hero-canvas"></canvas>
+        <div class="grain-overlay"></div>
+        <div class="hero-content">
+            <p class="section-label reveal">Privacy & Data Protection</p>
+            <h1 class="hero-title reveal">Your Data. Your <span class="text-gradient">Rights. Our Responsibility</span>
+            </h1>
+            <p class="hero-subtitle reveal">At Crowcent, we take data privacy seriously. This policy explains how we
+                collect, use, protect, and manage your personal information in full compliance with Indian and
+                international laws.</p>
+        </div>
+    </section>
+
+    <!-- ============ POLICY CONTENT ============ -->
+    <section class="section">
+        <div class="container">
+            <div class="policy-content reveal">
+
+                <div class="last-updated">
+                    <strong>Last Updated:</strong> January 2025 | <strong>Effective Date:</strong> January 15, 2025
+                </div>
+
+                <!-- Table of Contents -->
+                <div class="toc-box reveal">
+                    <h3>Quick Navigation</h3>
+                    <ol>
+                        <li><a href="#intro">Introduction</a></li>
+                        <li><a href="#collect">Information We Collect</a></li>
+                        <li><a href="#use">How We Use Your Data</a></li>
+                        <li><a href="#sharing">Data Sharing & Third Parties</a></li>
+                        <li><a href="#retention">Data Retention</a></li>
+                        <li><a href="#security">Security Measures</a></li>
+                        <li><a href="#rights">Your Rights</a></li>
+                        <li><a href="#cookies">Cookies & Tracking</a></li>
+                        <li><a href="#international">International Data Transfers</a></li>
+                        <li><a href="#children">Children's Privacy</a></li>
+                        <li><a href="#changes">Policy Changes</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ol>
+                </div>
+
+                <!-- 1. Introduction -->
+                <div class="policy-section" id="intro" style="margin-top: 40px;">
+                    <h2>1. Introduction</h2>
+                    <p><strong>Crowcent</strong> ("we," "us," "our," or "Company") is a marketing communications and
+                        business consulting firm based in Meerut, Uttar Pradesh, with operations in Gurugram, Haryana,
+                        India.</p>
+                    <p>This Privacy Policy explains how we collect, use, disclose, store, and protect your personal
+                        information when you:</p>
+                    <ul>
+                        <li>Visit our website (crowcent.com)</li>
+                        <li>Fill out our contact form</li>
+                        <li>Communicate with us via email or phone</li>
+                        <li>Engage with our services</li>
+                        <li>Interact with our marketing communications</li>
+                    </ul>
+                    <p>We are committed to maintaining the confidentiality and security of your personal data in
+                        compliance with:</p>
+                    <ul>
+                        <li><strong>Indian IT Act, 2000</strong></li>
+                        <li><strong>Information Technology Rules, 2011</strong> (and subsequent amendments)</li>
+                        <li><strong>Draft Digital Personal Data Protection Act, 2023</strong> (India's data protection
+                            framework)</li>
+                        <li><strong>General Data Protection Regulation (GDPR)</strong> (for EU residents)</li>
+                    </ul>
+                    <p><strong>Important:</strong> By accessing crowcent.com or providing us with your information, you
+                        acknowledge and agree to this Privacy Policy.</p>
+                </div>
+
+                <!-- 2. Information We Collect -->
+                <div class="policy-section" id="collect">
+                    <h2>2. Information We Collect</h2>
+
+                    <h3>2.1 Information You Provide Directly</h3>
+                    <p>When you interact with Crowcent, we collect information you voluntarily share:</p>
+                    <ul>
+                        <li><strong>Contact Form Data:</strong> Full name, email address, company/business name, phone
+                            number, service interest, message content</li>
+                        <li><strong>Email Communications:</strong> Messages you send to workwithgautam.live@gmail.com
+                        </li>
+                        <li><strong>Phone Communications:</strong> Call records and conversation notes (if you contact
+                            us)</li>
+                        <li><strong>Service Engagement Data:</strong> Information shared during consulting engagements,
+                            strategy discussions, and deliverables</li>
+                    </ul>
+
+                    <h3>2.2 Information Collected Automatically</h3>
+                    <p>When you visit crowcent.com, we automatically collect certain technical information:</p>
+                    <ul>
+                        <li><strong>IP Address:</strong> Your internet protocol address</li>
+                        <li><strong>Browser & Device Information:</strong> Browser type, device type, operating system</li>
+                        <li><strong>Page Interaction Data:</strong> Pages visited, scroll depth, time spent on pages</li>
+                        <li><strong>Referral Source:</strong> How you arrived at our website</li>
+                        <li><strong>Custom Cursor Tracking:</strong> Movement data for user experience optimization
+                            (anonymous, no personal identification)</li>
+                    </ul>
+
+                    <h3>2.3 Information From Future Analytics Tools</h3>
+                    <p><strong>Note:</strong> We are planning to implement website analytics tools (e.g., Google
+                        Analytics) in the future. When activated, we will collect:</p>
+                    <ul>
+                        <li>User behavior patterns (clicks, form submissions, conversions)</li>
+                        <li>Session duration and frequency</li>
+                        <li>Traffic sources and user journeys</li>
+                        <li>Performance metrics</li>
+                    </ul>
+                    <p><strong>We will update this policy and notify you</strong> when analytics tools are implemented.
+                        You will have the option to opt-out.</p>
+                </div>
+
+                <!-- 3. How We Use Your Data -->
+                <div class="policy-section" id="use">
+                    <h2>3. How We Use Your Information</h2>
+                    <p>Crowcent uses the information we collect for the following purposes:</p>
+
+                    <h3>3.1 Service Delivery & Consultation</h3>
+                    <ul>
+                        <li>Respond to your inquiries and service requests</li>
+                        <li>Schedule and conduct strategy calls</li>
+                        <li>Deliver consulting services, reports, and deliverables</li>
+                        <li>Follow up on engagement outcomes and feedback</li>
+                    </ul>
+
+                    <h3>3.2 Marketing & Business Development</h3>
+                    <ul>
+                        <li><strong>Email Communications (Occasional):</strong> We may send you informational emails about
+                            our services, industry insights, or case studies — but only if you have shown interest or
+                            explicitly consented</li>
+                        <li>Understand your business needs to tailor our approach</li>
+                        <li>Inform you about relevant updates or new services</li>
+                        <li><strong>Opt-Out Right:</strong> You can unsubscribe from marketing emails at any time by
+                            clicking "unsubscribe" or contacting us</li>
+                    </ul>
+
+                    <h3>3.3 Website Improvement & Analytics</h3>
+                    <ul>
+                        <li>Analyze website performance and user behavior</li>
+                        <li>Improve website design, functionality, and user experience</li>
+                        <li>Troubleshoot technical issues</li>
+                        <li>Optimize page load times and navigation</li>
+                    </ul>
+
+                    <h3>3.4 Legal & Compliance Obligations</h3>
+                    <ul>
+                        <li>Comply with Indian legal and regulatory requirements</li>
+                        <li>Respond to government requests or court orders</li>
+                        <li>Prevent fraud, abuse, or illegal activity</li>
+                        <li>Enforce our Terms of Service and other agreements</li>
+                    </ul>
+
+                    <h3>3.5 Business Operations</h3>
+                    <ul>
+                        <li>Maintain client records for service delivery</li>
+                        <li>Generate invoices and manage payment records</li>
+                        <li>Track project timelines and deliverable status</li>
+                        <li>Archive communications for reference</li>
+                    </ul>
+
+                    <div class="highlight-box">
+                        <p><strong>Important:</strong> We will NOT use your personal data for purposes other than those
+                            stated in this policy without first obtaining your explicit consent.</p>
+                    </div>
+                </div>
+
+                <!-- 4. Data Sharing & Third Parties -->
+                <div class="policy-section" id="sharing">
+                    <h2>4. Data Sharing & Third Parties</h2>
+
+                    <h3>4.1 Who We Share Your Data With</h3>
+                    <p>Crowcent does NOT sell, rent, or trade your personal information to third parties. However, we may
+                        share your data in the following limited scenarios:</p>
+
+                    <h3>4.2 Service Providers</h3>
+                    <p>We may share your information with trusted third-party service providers who assist us in
+                        operating our business, including:</p>
+                    <ul>
+                        <li><strong>Email Service Providers:</strong> For sending newsletters or service-related
+                            communications</li>
+                        <li><strong>Hosting & Cloud Providers:</strong> For website hosting and data storage</li>
+                        <li><strong>Analytics Providers:</strong> For website performance tracking (when implemented)</li>
+                        <li><strong>Payment Processors:</strong> For invoice and payment processing (if applicable)</li>
+                    </ul>
+                    <p><strong>Data Processing Agreements:</strong> All service providers are contractually bound to
+                        protect your data and use it only for agreed-upon purposes.</p>
+
+                    <h3>4.3 Legal Requirements</h3>
+                    <p>We may disclose your personal information if required by:</p>
+                    <ul>
+                        <li>Court orders or legal subpoenas</li>
+                        <li>Government agencies or regulatory authorities</li>
+                        <li>Law enforcement requests</li>
+                        <li>Compliance with Indian law or international legal obligations</li>
+                    </ul>
+
+                    <h3>4.4 Business Transfer</h3>
+                    <p>In the event of a merger, acquisition, or sale of assets, your personal data may be transferred as
+                        part of that transaction. You will be notified of any such change and your privacy rights will
+                        remain protected.</p>
+
+                    <div class="highlight-box">
+                        <p><strong>Your Control:</strong> We do not share your data for marketing purposes with third
+                            parties without your explicit consent. You can withdraw consent at any time.</p>
+                    </div>
+                </div>
+
+                <!-- 5. Data Retention -->
+                <div class="policy-section" id="retention">
+                    <h2>5. Data Retention</h2>
+                    <p>Crowcent retains personal information for as long as necessary to fulfill the purposes outlined in
+                        this policy, or as required by law.</p>
+
+                    <h3>5.1 Retention Schedule</h3>
+                    <table class="policy-table">
+                        <thead>
+                            <tr>
+                                <th>Data Type</th>
+                                <th>Retention Period</th>
+                                <th>Reason for Retention</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Contact Form Data (Inactive Leads)</td>
+                                <td>1 Year</td>
+                                <td>Service follow-up, business development</td>
+                            </tr>
+                            <tr>
+                                <td>Active Client Data</td>
+                                <td>Duration of engagement + 1 year</td>
+                                <td>Service delivery, follow-up, legal requirements</td>
+                            </tr>
+                            <tr>
+                                <td>Email Communications</td>
+                                <td>1 Year (or longer if contractual)</td>
+                                <td>Service records, dispute resolution</td>
+                            </tr>
+                            <tr>
+                                <td>Website Analytics</td>
+                                <td>1 Year (aggregated)</td>
+                                <td>Performance tracking (when implemented)</td>
+                            </tr>
+                            <tr>
+                                <td>Invoices & Payment Records</td>
+                                <td>6+ Years</td>
+                                <td>Tax, accounting, legal compliance (India)</td>
+                            </tr>
+                            <tr>
+                                <td>Server Logs & IP Data</td>
+                                <td>30-90 Days</td>
+                                <td>Security, fraud prevention, technical support</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>5.2 Data Deletion</h3>
+                    <p>After the retention period ends, we securely delete or anonymize your personal data, unless:</p>
+                    <ul>
+                        <li>We are required by law to retain it longer</li>
+                        <li>Deletion would prevent us from fulfilling a legal obligation</li>
+                        <li>You have an active ongoing engagement with us</li>
+                    </ul>
+                </div>
+
+                <!-- 6. Security Measures -->
+                <div class="policy-section" id="security">
+                    <h2>6. Security Measures</h2>
+                    <p>Crowcent implements technical and organizational safeguards to protect your personal data from
+                        unauthorized access, alteration, disclosure, or destruction.</p>
+
+                    <h3>6.1 Security Practices</h3>
+                    <ul>
+                        <li><strong>HTTPS Encryption:</strong> Our website uses SSL/TLS encryption to secure data
+                            transmitted between you and our servers</li>
+                        <li><strong>Secure Data Storage:</strong> Personal data is stored in secure, password-protected
+                            systems</li>
+                        <li><strong>Access Controls:</strong> Only authorized team members can access personal data,
+                            subject to confidentiality agreements</li>
+                        <li><strong>Regular Security Reviews:</strong> We periodically review our security practices</li>
+                        <li><strong>Incident Response Plan:</strong> In case of a data breach, we have procedures to
+                            notify affected individuals and authorities as required by law</li>
+                    </ul>
+
+                    <h3>6.2 Limitations</h3>
+                    <p><strong>Important:</strong> While we use industry-standard security measures, no method of
+                        transmission over the internet is 100% secure. We cannot guarantee absolute security. You assume
+                        some risk when transmitting personal information online.</p>
+
+                    <div class="highlight-box">
+                        <p><strong>Your Responsibility:</strong> Keep your login credentials confidential and notify us
+                            immediately if you suspect unauthorized access to your account.</p>
+                    </div>
+                </div>
+
+                <!-- 7. Your Rights -->
+                <div class="policy-section" id="rights">
+                    <h2>7. Your Data Protection Rights</h2>
+                    <p>Under Indian law and international standards, you have the following rights regarding your
+                        personal data:</p>
+
+                    <h3>7.1 Right to Access</h3>
+                    <p>You have the right to request and obtain a copy of the personal data we hold about you. We will
+                        provide this information within <strong>30 days</strong> of your request, free of charge.</p>
+
+                    <h3>7.2 Right to Correction/Rectification</h3>
+                    <p>If your personal data is inaccurate or incomplete, you can request that we correct or update it.
+                        We will make corrections within <strong>15 days</strong> of verification.</p>
+
+                    <h3>7.3 Right to Erasure ("Right to be Forgotten")</h3>
+                    <p>You can request deletion of your personal data, subject to legal obligations. We will erase your
+                        data within <strong>30 days</strong> unless we are required to retain it for legal or contractual
+                        reasons.</p>
+
+                    <h3>7.4 Right to Withdraw Consent</h3>
+                    <p>If you have consented to data processing (e.g., marketing emails), you can withdraw your consent
+                        at any time. This will not affect the legality of processing before withdrawal.</p>
+
+                    <h3>7.5 Right to Data Portability (GDPR - EU Residents)</h3>
+                    <p>If you are an EU resident under GDPR, you have the right to request your data in a structured,
+                        commonly used format for transfer to another organization.</p>
+
+                    <h3>7.6 Right to Object</h3>
+                    <p>You can object to certain types of data processing, including direct marketing. We will honor your
+                        objection within <strong>15 days</strong>.</p>
+
+                    <h3>7.7 How to Exercise Your Rights</h3>
+                    <p>To exercise any of these rights, contact us at:</p>
+                    <ul>
+                        <li><strong>Email:</strong> workwithgautam.live@gmail.com</li>
+                        <li><strong>Subject Line:</strong> [Your Right] - Data Protection Request</li>
+                        <li><strong>Include:</strong> Your name, email, specific request, and proof of identity</li>
+                    </ul>
+                    <p><strong>Response Time:</strong> We will acknowledge your request within <strong>5 business
+                            days</strong> and resolve it within <strong>30-45 days</strong>.</p>
+                </div>
+
+                <!-- 8. Cookies & Tracking -->
+                <div class="policy-section" id="cookies">
+                    <h2>8. Cookies & Tracking Technologies</h2>
+
+                    <h3>8.1 Current Cookie Usage</h3>
+                    <p>Currently, crowcent.com does <strong>NOT</strong> use persistent cookies or tracking pixels.
+                        However, your browser may store session data for basic functionality.</p>
+
+                    <h3>8.2 Future Cookie Implementation</h3>
+                    <p>We may implement cookies in the future for:</p>
+                    <ul>
+                        <li><strong>Analytics Cookies:</strong> To understand how visitors use our site</li>
+                        <li><strong>Functionality Cookies:</strong> To remember your preferences</li>
+                        <li><strong>Marketing Cookies:</strong> To show relevant content (with your consent)</li>
+                    </ul>
+
+                    <h3>8.3 Custom Cursor Tracking (Non-Identifying)</h3>
+                    <p>Our website uses custom cursor tracking for enhanced user experience. This tracking:</p>
+                    <ul>
+                        <li>Does NOT collect personally identifiable information</li>
+                        <li>Does NOT track across websites</li>
+                        <li>Is stored only in your browser session</li>
+                        <li>Is used solely to improve design interaction</li>
+                    </ul>
+
+                    <h3>8.4 Managing Cookies</h3>
+                    <p>You can control cookies through your browser settings:</p>
+                    <ul>
+                        <li>Enable or disable cookies</li>
+                        <li>Delete existing cookies</li>
+                        <li>Set preferences for third-party cookies</li>
+                    </ul>
+                    <p><strong>Note:</strong> Disabling cookies may affect website functionality.</p>
+
+                    <h3>8.5 Do Not Track (DNT)</h3>
+                    <p>If your browser sends a "Do Not Track" signal, we will respect your preference and limit tracking
+                        to essential functions only.</p>
+                </div>
+
+                <!-- 9. International Data Transfers -->
+                <div class="policy-section" id="international">
+                    <h2>9. International Data Transfers</h2>
+
+                    <h3>9.1 Where Data is Stored</h3>
+                    <p>Crowcent's primary data storage is in <strong>India</strong> (Meerut, Uttar Pradesh). However, if
+                        you are an international client or EU resident, your data may be transferred to:</p>
+                    <ul>
+                        <li>Cloud hosting providers operating in multiple countries</li>
+                        <li>Third-party service providers located outside India</li>
+                    </ul>
+
+                    <h3>9.2 GDPR Compliance for EU Residents</h3>
+                    <p>If you are located in the European Union, we comply with GDPR requirements, including:</p>
+                    <ul>
+                        <li>Standard Contractual Clauses (SCC) for data transfers</li>
+                        <li>Binding Corporate Rules where applicable</li>
+                        <li>Adequate safeguards for your data protection rights</li>
+                    </ul>
+
+                    <h3>9.3 Your Consent</h3>
+                    <p>By providing your information, you consent to international data transfers in accordance with this
+                        policy and applicable laws.</p>
+                </div>
+
+                <!-- 10. Children's Privacy -->
+                <div class="policy-section" id="children">
+                    <h2>10. Children's Privacy</h2>
+
+                    <p>Crowcent's services and website are <strong>NOT directed to children under 18 years of age</strong>.
+                        We do not knowingly collect personal information from children.</p>
+
+                    <p>If we discover that we have collected information from a child without parental consent, we will
+                        promptly delete such information and notify the parent/guardian.</p>
+
+                    <p><strong>Parent/Guardian Contact:</strong> If you believe we have collected information from a minor,
+                        please contact us immediately at workwithgautam.live@gmail.com.</p>
+                </div>
+
+                <!-- 11. Policy Changes -->
+                <div class="policy-section" id="changes">
+                    <h2>11. Changes to This Privacy Policy</h2>
+
+                    <p>Crowcent may update this Privacy Policy periodically to reflect changes in our practices, technology,
+                        legal requirements, or other factors. We will notify you of material changes by:</p>
+                    <ul>
+                        <li>Posting the updated policy on crowcent.com</li>
+                        <li>Updating the "Last Updated" date at the top of this page</li>
+                        <li>Sending you an email notification (if we have your contact information)</li>
+                    </ul>
+
+                    <p><strong>Continued Use:</strong> Your continued use of our website or services after any changes
+                        constitutes your acceptance of the updated Privacy Policy.</p>
+
+                    <p>We encourage you to review this policy periodically to stay informed about how we protect your
+                        information.</p>
+                </div>
+
+                <!-- 12. Contact Us -->
+                <div class="policy-section" id="contact">
+                    <h2>12. Contact Us</h2>
+
+                    <p>If you have questions, concerns, or requests regarding this Privacy Policy or our data practices,
+                        please contact us:</p>
+
+                    <h3>Crowcent — Data Protection & Privacy Inquiries</h3>
+                    <ul>
+                        <li><strong>Email:</strong> workwithgautam.live@gmail.com</li>
+                        <li><strong>Subject:</strong> Privacy Policy / Data Protection Request</li>
+                        <li><strong>Response Time:</strong> Within 5 business days</li>
+                    </ul>
+
+                    <h3>Mailing Address</h3>
+                    <ul>
+                        <li><strong>Head Office:</strong> Meerut, Uttar Pradesh, India</li>
+                        <li><strong>Operations:</strong> Gurugram, Haryana, India</li>
+                    </ul>
+
+                    <h3>Data Protection Authority (If Required)</h3>
+                    <p>If you are not satisfied with our response to your data protection concern, you may lodge a
+                        complaint with the relevant data protection authority in your jurisdiction.</p>
+                    <ul>
+                        <li><strong>India:</strong> Information Commissioner's Office (Under IT Act & Draft DPA)</li>
+                        <li><strong>EU:</strong> Your National Data Protection Authority (GDPR)</li>
+                    </ul>
+
+                    <div class="highlight-box">
+                        <p><strong>We value your trust.</strong> Protecting your privacy is our priority. Thank you for
+                            choosing Crowcent.</p>
+                    </div>
+                </div>
+
+                <!-- Footer Note -->
+                <div style="margin-top: 60px; padding-top: 40px; border-top: 1px solid rgba(255, 255, 255, 0.1); text-align: center;">
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">
+                        © 2025 Crowcent. All rights reserved.<br>
+                        This Privacy Policy is subject to our <a href="terms.html" style="color: var(--accent-teal); text-decoration: none;">Terms of Service</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CTA BANNER ============ -->
+    <section class="section">
+        <div class="container">
+            <div class="cta-banner reveal-scale">
+                <p class="section-label">Questions About Your Data?</p>
+                <h2 class="section-title">We're Here to Help</h2>
+                <p class="section-subtitle mx-auto">Have concerns about how we handle your information? Reach out and
+                    we'll clarify everything.</p>
+                <a href="contact.html" class="btn btn-glow" style="margin-top: 8px;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                    </svg>
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="footer-logo">Crowcent</span>
+                    <p>Strategy-led marketing communications and business consulting for SMBs that refuse to stay small.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="work.html">Case Studies</a>
+                    <a href="products.html">Our Products</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <a href="services.html">MarCom Strategy</a>
+                    <a href="services.html">Business Modeling</a>
+                    <a href="services.html">Go-to-Market</a>
+                    <a href="services.html">Ease of Business</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <a href="#">workwithgautam.live@gmail.com</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Twitter / X</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Crowcent. All rights reserved.</p>
+                <div>
+                    <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15" />
+        </svg>
+    </button>
+
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
